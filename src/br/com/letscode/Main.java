@@ -213,7 +213,7 @@ public class Main {
             System.out.printf("Enter the grades of class %d", i+1 );
             for (int j = 0; j < students; j++) {
                 System.out.printf("Enter the grade of student %d of class %d", j+1, i+1);
-                
+
 
             }
         }
