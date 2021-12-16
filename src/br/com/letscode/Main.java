@@ -1,11 +1,5 @@
 package br.com.letscode;
 
-import java.sql.SQLOutput;
-import java.time.DayOfWeek;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.Currency;
-import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -328,6 +322,41 @@ public class Main {
 //    public static double inchToNotStupidMeasuringSystemConverter(double stupidMeasure) {
 //        return stupidMeasure * 2.54;
 //    }
+
+//    public static void main(String[] args) {
+//        String[] fruits = new String[5];
+//        Scanner input = new Scanner(System.in);
+//
+//        for (int i = 0; i < fruits.length; i++) {
+//            System.out.println("Insert fruit");
+//            fruits[i] = input.next();
+//        }
+//
+//        System.out.println(Arrays.toString(fruits));
+//
+//        input.close();
+//    }
+//
+//    public static void main(String[] args) {
+//
+//      String word;
+//
+//      StringBuilder drow = new StringBuilder();
+//
+//      Scanner input = new Scanner(System.in);
+//
+//        System.out.println("Type a word");
+//        word = input.nextLine();
+//
+//        for (int i = word.length(); i > 0; i--) {
+//            drow.append(word.charAt(i - 1));
+//        }
+//
+//        System.out.printf("Abracadabra, the %s word is now %s", word, drow.toString());
+//
+//    }
+
+
 
 
 
